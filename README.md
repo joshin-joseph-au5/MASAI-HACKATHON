@@ -26,20 +26,20 @@ streamlit run app.py
 🏢 Department-Specific Focus
 
 📊 Approach
-1️⃣ Data Cleaning & Preprocessing
+1.Data Cleaning & Preprocessing
 Handled missing values in numerical columns (mean imputation) and categorical columns (mode imputation).
 Scaled numerical features using StandardScaler.
 Encoded categorical variables (Flight Number, Route Type) using Label Encoding.
-2️⃣ Feature Engineering
+2. Feature Engineering
 Created new features:
 departure_delay = actual_departure_hour - scheduled_departure_hour
 route_domestic & route_international (one-hot encoded).
 Placeholder extra features for model consistency.
 Ensured consistency: Matched feature order with the trained model.
-3️⃣ Model Training
+3. Model Training
 Used Random Forest Regressor for prediction.
 Evaluated multiple models, selecting the best performing one.
-4️⃣ Evaluation Metrics
+4. Evaluation Metrics
 Root Mean Squared Error (RMSE): Measures model error magnitude.
 Mean Absolute Error (MAE): Captures average prediction error.
 R² Score: Indicates model performance.
