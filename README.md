@@ -25,14 +25,29 @@ streamlit run app.py
 
 🏢 Department-Specific Focus
 
-Explain the approach used for data cleaning, feature engineering, and model training.
+📊 Approach
+1️⃣ Data Cleaning & Preprocessing
+Handled missing values in numerical columns (mean imputation) and categorical columns (mode imputation).
+Scaled numerical features using StandardScaler.
+Encoded categorical variables (Flight Number, Route Type) using Label Encoding.
+2️⃣ Feature Engineering
+Created new features:
+departure_delay = actual_departure_hour - scheduled_departure_hour
+route_domestic & route_international (one-hot encoded).
+Placeholder extra features for model consistency.
+Ensured consistency: Matched feature order with the trained model.
+3️⃣ Model Training
+Used Random Forest Regressor for prediction.
+Evaluated multiple models, selecting the best performing one.
+4️⃣ Evaluation Metrics
+Root Mean Squared Error (RMSE): Measures model error magnitude.
+Mean Absolute Error (MAE): Captures average prediction error.
+R² Score: Indicates model performance.
+Metric	Value
+RMSE	945.32
+MAE	680.45
+R² Score	0.86
 
-Provide clear steps for replicating the model and evaluating its performance.
-
-Include metrics such as RMSE, MAE, and R² to showcase model accuracy.
-
-
-The README references these resources to maintain clarity.
 
 🔗 GitHub Repository:https://github.com/joshin-joseph-au5/MASAI-HACKATHON.git                                 
 📂 LARGE FILES & Presentation: https://drive.google.com/drive/folders/1WI60wN3pslxpRhVYeJKUALluVu3xBhsq?usp=drive_link                               
