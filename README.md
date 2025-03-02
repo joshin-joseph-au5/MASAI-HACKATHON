@@ -34,4 +34,4 @@ Include metrics such as RMSE, MAE, and R² to showcase model accuracy.
 
 The README references these resources to maintain clarity.
 
-🔗 GitHub Repository: [Your GitHub Repo Link]🌍 Deployed Application: [Your Streamlit App Link]📂 Data & Notebooks: [Your Google Drive Link]
+🔗 GitHub Repository: [Your GitHub Repo Link]   📂 Data & Presentation: [Your Google Drive Link]
